@@ -1,0 +1,25 @@
+site_name: Austin's Library
+site_url: https://sitename.example
+theme: 
+  name: material
+  palette:
+    scheme: slate
+    primary: green
+    accent: deep orange
+  font:
+    text: Roboto
+    code: Red Hat Mono
+  icon:
+    logo: fontawesome/solid/a
+
+markdown_extensions:
+  - attr_list
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - admonition
+  - pymdownx.details
